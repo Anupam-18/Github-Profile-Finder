@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 67.5%;
+}
+
+nav{
+    background-color: #4582ec;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+nav h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    border: .2rem solid #adb5bd;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.container h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+
+.container p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #adb5bd;
+}
+
+.container input{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border: 1px solid #adb5bd;
+}
+
+.container .error{
+    display: none;
+    color: red;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.container input:focus{
+    border-color: rgb(42, 91, 165);
+}
+
+footer{
+    background-color: #adb5bd;
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card{
+    border: .2rem solid #adb5bd;
+    margin: 2rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col-left{
+    flex-basis: 30%;
+    margin-right: 2rem;
+}
+
+.col-right{
+    flex-basis: 60%;
+}
+
+.col-left img{
+    width: 90%;
+    outline: none;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.col-left a{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(45, 176, 180);
+    padding: 1rem;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.col-right .badge{
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    margin: 1rem;
+    color: white;
+}
+
+.col-right .badge-repos,.badge-stars{
+    background-color: #4582ec;
+}
+
+.col-right .badge-followers,.badge-watchers{
+    background-color: #17A2B8;
+}
+
+.col-right .badge-following,.badge-forks{
+   background-color: #02A875;
+}
+
+.col-right .badge-gists{
+   background-color: #ADB5BD;
+}
+
+.list-group-item{
+    border: .2rem solid #ADB5BD;
+    font-size: 1.5rem;
+}
+
+.repo-heading{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.repo-row{
+    margin: 0 2rem 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: .1rem solid #ADB5BD;
+    padding: 1rem 2rem;
+}
+
+.repoName{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.badges-group .badge{
+    margin-left: 1rem;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
